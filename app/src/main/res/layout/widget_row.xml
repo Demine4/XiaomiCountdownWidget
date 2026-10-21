@@ -1,0 +1,15 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/row" android:layout_width="match_parent" android:layout_height="wrap_content"
+    android:orientation="vertical">
+    <LinearLayout android:id="@+id/row_content" android:layout_width="match_parent" android:layout_height="23dp" android:orientation="horizontal" android:gravity="center_vertical">
+        <TextView android:id="@+id/bullet" android:layout_width="9dp" android:layout_height="wrap_content" android:text="•"
+            android:textColor="#767980" android:textSize="12sp" android:includeFontPadding="false" />
+        <TextView android:id="@+id/title" android:layout_width="0dp" android:layout_weight="1" android:layout_height="wrap_content"
+            android:textColor="#4A4B50" android:textSize="12sp" android:textStyle="bold"
+            android:singleLine="true" android:ellipsize="end" android:includeFontPadding="false" />
+        <TextView android:id="@+id/subtitle" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginStart="3dp"
+            android:textColor="#4A4B50" android:textSize="12sp" android:singleLine="true" android:includeFontPadding="false" />
+    </LinearLayout>
+    <ImageView android:id="@+id/divider" android:layout_width="match_parent" android:layout_height="1dp"
+        android:src="@drawable/dotted_line" android:scaleType="fitXY" android:importantForAccessibility="no" />
+</LinearLayout>

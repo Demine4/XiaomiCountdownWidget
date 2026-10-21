@@ -1,0 +1,5 @@
+<manifest xmlns:android="http://schemas.android.com/apk/res/android" package="local.countdown.tests">
+    <uses-sdk android:minSdkVersion="30" android:targetSdkVersion="36" />
+    <application android:label="Countdown smoke tests" />
+    <instrumentation android:name="local.countdown.probe.WidgetSmokeInstrumentation" android:targetPackage="local.countdown.probe" />
+</manifest>

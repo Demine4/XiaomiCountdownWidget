@@ -1,0 +1,14 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/row" android:layout_width="match_parent" android:layout_height="wrap_content"
+    android:orientation="vertical" android:paddingTop="7dp" android:paddingBottom="3dp" android:paddingStart="3dp" android:paddingEnd="3dp">
+    <TextView android:id="@+id/title" android:layout_width="match_parent" android:layout_height="wrap_content"
+        android:textStyle="bold" android:textSize="11sp" android:includeFontPadding="false" android:breakStrategy="simple" />
+    <TextView android:id="@+id/subtitle" android:layout_width="match_parent" android:layout_height="wrap_content"
+        android:layout_marginTop="4dp" android:textSize="11sp" android:includeFontPadding="false" />
+    <TextView android:id="@+id/origin_date" android:layout_width="match_parent" android:layout_height="wrap_content"
+        android:layout_marginTop="4dp" android:textSize="10sp" android:includeFontPadding="false" android:visibility="gone" />
+    <TextView android:id="@+id/anniversary_detail" android:layout_width="match_parent" android:layout_height="wrap_content"
+        android:layout_marginTop="3dp" android:textSize="10sp" android:includeFontPadding="false" android:visibility="gone" />
+    <ImageView android:id="@+id/divider" android:layout_width="match_parent" android:layout_height="1dp"
+        android:layout_marginTop="8dp" android:src="@drawable/dotted_line" android:scaleType="fitXY" android:importantForAccessibility="no" />
+</LinearLayout>
